@@ -29,6 +29,10 @@ img {
 .orange_button {
     background-color: var(--buy);
 }
+
+.blue_text {
+    color: var(--limits);
+}
 /* #endregion utilities */
 
 /* #region debug */
