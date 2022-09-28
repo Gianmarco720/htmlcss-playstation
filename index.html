@@ -2,142 +2,218 @@
 <html lang="en">
 
 <head>
-  <title>Playstation</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS v5.2.0-beta1 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <!-- css -->
-  <link rel="stylesheet" href="./assets/css/style.css">  
-  <!-- Font Awsome -->  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Playstation</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="debug">
+<body class="">
 
-  <header id="site_header"></header>
-  <!-- /#site_header -->
-  <main id="site_main">
-    <section class="hero">
-        <div class="container">
-            <div class="hero_details"></div>
-        </div>
-    </section>
-    <section class="hero_game py-5">
+    <header id="site_header">
+        <section class="logo_top top_header_dark">
+            <div class="container">
+                <div class="logo d-flex justify-content-end p-3">
+                    <img src="./assets/img/sony_logo.svg" alt="logo sony">
+                </div>
+            </div>
+        </section>
+        <section class="ps_menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-white">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">
+                            <img src="./assets/img/play_logo.svg" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Giochi
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Hardware
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Servizi
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Novitá
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Fai acquisti
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Supporto
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="menu_right d-flex align-items-center px-2">
+                                <a class="nav-link dropdown-toggle text-dark px-3" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    My PlayStation
+                                </a>
+                                <div class="pe-5">
+                                    <button type="button" class="btn btn-dark rounded-pill login">Accedi</button>
+                                </div>
+                                <img src="./assets/img/lens.svg" class="top_search" alt="lente d'ingrandimento">
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <!-- /#site_header -->
+    <main id="site_main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero_details"></div>
+            </div>
+        </section>
+        <section class="hero_game py-5">
+            <div class="container">
+                <div class="row flex-wrap">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                </div>
+            </div>
+        </section>
+        <section class="ps5 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6"></div>
+                    <div class="col-12 col-md-6"></div>
+                </div>
+                <div class="row accessories py-2">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </section>
+        <section class="it_takes_two">
+            <div class="container">
+                <div class="itt_details"></div>
+            </div>
+        </section>
+        <section class="new_games">
+            <div class="container">
+                <div class="row flex-wrap">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                </div>
+                <div class="row flex-wrap">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                </div>
+            </div>
+        </section>
+        <section class="ps4 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4"></div>
+                    <div class="col-12 col-md-4 col-lg-4"></div>
+                    <div class="col-12 col-md-4 col-lg-4"></div>
+                </div>
+            </div>
+        </section>
+        <section class="ps_plus">
+            <div class="container">
+                <div class="ps_plus_details"></div>
+            </div>
+        </section>
+        <section class="ps_store py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4"></div>
+                    <div class="col-12 col-md-4 col-lg-4"></div>
+                    <div class="col-12 col-md-4 col-lg-4"></div>
+                </div>
+            </div>
+        </section>
+        <section class="ps_now">
+            <div class="container">
+                <div class="ps_now_details"></div>
+            </div>
+        </section>
+        <section class="social">
+            <div class="container">
+                <div class="row flex-wrap">
+                    <div class="col-6 col-md-3 col-lg-3"></div>
+                    <div class="col-6 col-md-3 col-lg-3"></div>
+                    <div class="col-6 col-md-3 col-lg-3"></div>
+                    <div class="col-6 col-md-3 col-lg-3"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- /#site_main -->
+    <footer id="site_footer" class="py-5">
         <div class="container">
             <div class="row flex-wrap">
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
+                <div class="col-12 col-md-12 col-lg-6"></div>
+                <div class="col-12 col-md-12 col-lg-6"></div>
             </div>
-        </div>
-    </section>
-    <section class="ps5 py-5">
-        <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6"></div>
-                <div class="col-12 col-md-6"></div>
-            </div>
-            <div class="row accessories py-2">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
+                <div class="col-12"></div>
             </div>
         </div>
-    </section>
-    <section class="it_takes_two">
-        <div class="container">
-            <div class="itt_details"></div>
-        </div>
-    </section>
-    <section class="new_games">
-        <div class="container">
-            <div class="row flex-wrap">
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-            </div>
-            <div class="row flex-wrap">
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-                <div class="col-6 col-sm-4 col-md-4 col-lg-2"></div>
-            </div>
-        </div>
-    </section>
-    <section class="ps4 py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4 col-lg-4"></div>
-                <div class="col-12 col-md-4 col-lg-4"></div>
-                <div class="col-12 col-md-4 col-lg-4"></div>
-            </div>
-        </div>
-    </section>
-    <section class="ps_plus">
-        <div class="container">
-            <div class="ps_plus_details"></div>
-        </div>
-    </section>
-    <section class="ps_store py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4 col-lg-4"></div>
-                <div class="col-12 col-md-4 col-lg-4"></div>
-                <div class="col-12 col-md-4 col-lg-4"></div>
-            </div>
-        </div>
-    </section>
-    <section class="ps_now">
-        <div class="container">
-            <div class="ps_now_details"></div>
-        </div>
-    </section>
-    <section class="social">
-        <div class="container">
-            <div class="row flex-wrap">
-                <div class="col-6 col-md-3 col-lg-3"></div>
-                <div class="col-6 col-md-3 col-lg-3"></div>
-                <div class="col-6 col-md-3 col-lg-3"></div>
-                <div class="col-6 col-md-3 col-lg-3"></div>
-            </div>
-        </div>
-    </section>
-  </main>
-  <!-- /#site_main -->
-  <footer id="site_footer" class="py-5">
-    <div class="container">
-        <div class="row flex-wrap">
-            <div class="col-12 col-md-12 col-lg-6"></div>
-            <div class="col-12 col-md-12 col-lg-6"></div>
-        </div>
-        <div class="row">
-            <div class="col-12"></div>
-        </div>
-    </div>
-  </footer>
-  <!-- /#site_footer -->
+    </footer>
+    <!-- /#site_footer -->
 
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
-  </script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+        </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
-  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

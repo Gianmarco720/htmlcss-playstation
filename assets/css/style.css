@@ -27,7 +27,6 @@ img {
 }
 /* #endregion utilities */
 
-/* main */
 /* #region debug */
 .debug header {
     background-color: #000000;
@@ -48,3 +47,25 @@ img {
     background-color: #CD3D0F;
     border: 1px solid black;
 }
+/* #endregion debug */
+
+/* header */
+.logo img {
+    width: 50px;
+}
+
+header {
+    font-size: 10px;
+}
+
+.top_search {
+    width: 20px;
+}
+
+.login {
+    font-size: 10px;
+    background-color: var(--login);
+}
+
+
+/* main */
