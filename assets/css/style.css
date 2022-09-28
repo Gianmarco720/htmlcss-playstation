@@ -25,6 +25,10 @@ img {
 .top_header_dark {
     background-color: var(--hd-sony);
 }
+
+.orange_button {
+    background-color: var(--buy);
+}
 /* #endregion utilities */
 
 /* #region debug */
@@ -66,6 +70,10 @@ header {
     font-size: 10px;
     background-color: var(--login);
 }
-
+/* /header */
 
 /* main */
+.hero_logo {
+    width: 85%;
+    padding: 1rem 0;
+}
