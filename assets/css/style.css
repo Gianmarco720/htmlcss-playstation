@@ -94,3 +94,6 @@ header {
     width: 80%;
 }
 
+.new_games {
+    background-color: var(--bg-new);
+}
