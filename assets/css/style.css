@@ -12,3 +12,10 @@
     --bg-now: #161C3B;
     --ft-bg: #00439C;
 }
+
+/* #region utilities */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #region debug */
