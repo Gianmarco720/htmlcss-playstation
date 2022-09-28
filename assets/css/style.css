@@ -34,7 +34,8 @@ img {
     height: 80px
 }
 
-.debug .hero {
+.debug .hero,
+.debug .it_takes_two {
     height: 400px;
     background-color: #00439C;
 }
