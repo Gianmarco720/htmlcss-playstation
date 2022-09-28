@@ -33,6 +33,14 @@ img {
 .blue_text {
     color: var(--limits);
 }
+
+.blue_button {
+    background-color: var(--primary-b);
+}
+
+.fs_10 {
+    font-size: 10px;
+}
 /* #endregion utilities */
 
 /* #region debug */
@@ -80,4 +88,8 @@ header {
 .hero_logo {
     width: 85%;
     padding: 1rem 0;
+}
+
+.accessories img {
+    width: 80%;
 }
