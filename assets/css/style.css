@@ -35,7 +35,10 @@ img {
 }
 
 .debug .hero,
-.debug .it_takes_two {
+.debug .it_takes_two,
+.debug .ps_plus,
+.debug .ps_now,
+.debug #site_footer {
     height: 400px;
     background-color: #00439C;
 }
