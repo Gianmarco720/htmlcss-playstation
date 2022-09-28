@@ -18,4 +18,29 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
+.top_header_dark {
+    background-color: var(--hd-sony);
+}
+/* #endregion utilities */
+
+/* main */
 /* #region debug */
+.debug header {
+    background-color: #000000;
+    height: 80px
+}
+
+.debug .hero {
+    height: 400px;
+    background-color: #00439C;
+}
+
+.debug [class^="col"] {
+    height: 150px;
+    background-color: #CD3D0F;
+    border: 1px solid black;
+}
