@@ -156,6 +156,43 @@ header {
 /* /footer */
 
 /* #endregion body */
+
+/* #region hover */
+.menu_right a {
+    color: grey;
+}
+
+.menu_left a:hover {
+    color: black;
+}
+
+.hero_game img {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.hero_game img:hover {
+    cursor: pointer;
+    top: -20px;
+    border: 3px solid var(--logo-ps);
+}
+
+.accessories .col {
+    opacity: 50%;
+    transition: 0.3s;
+}
+
+.accessories .col:hover {
+    opacity: 100%;
+    border-bottom: 2px solid var(--logo-ps);
+    cursor: pointer;
+}
+
+.social img:hover,
+.ps_store img:hover {
+    cursor: pointer;
+}
 /* #region my responsive */
 @media screen and (max-width: 767.98px) {
     .ps_plus_banner {
