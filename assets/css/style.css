@@ -67,6 +67,10 @@ img {
 header {
     font-size: 15px;
 }
+
+li {
+    list-style-type: none;
+}
 /* #endregion utilities */
 
 /* #region debug */
@@ -126,6 +130,12 @@ header {
 
 .banner_2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+/* /main */
+
+/* footer */
+#site_footer {
+    background-color: var(--ft-bg);
 }
 
 /* #region my responsive */
