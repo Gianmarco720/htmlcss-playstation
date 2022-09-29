@@ -158,8 +158,24 @@ header {
 /* #endregion body */
 
 /* #region hover */
+.menu_right a {
+    color: grey;
+}
 
+.menu_left a:hover {
+    color: black;
+}
 
+.hero_game img {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.hero_game img:hover {
+    cursor: pointer;
+    top: -20px;
+}
 /* #region my responsive */
 @media screen and (max-width: 767.98px) {
     .ps_plus_banner {
