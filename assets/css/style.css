@@ -95,6 +95,8 @@ li {
 }
 /* #endregion debug */
 
+/* #region body */
+
 /* header */
 .logo img {
     width: 50px;
@@ -137,6 +139,9 @@ li {
 #site_footer {
     background-color: var(--ft-bg);
 }
+/* /footer */
+
+/* #endregion body */
 
 /* #region my responsive */
 @media screen and (max-width: 767.98px) {
@@ -144,3 +149,4 @@ li {
         display: none;
     }
 }
+/* #endregion my responsive */
