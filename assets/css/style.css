@@ -41,6 +41,10 @@ img {
 .fs_10 {
     font-size: 10px;
 }
+
+header {
+    font-size: 15px;
+}
 /* #endregion utilities */
 
 /* #region debug */
@@ -70,10 +74,6 @@ img {
     width: 50px;
 }
 
-header {
-    font-size: 15px;
-}
-
 .top_search {
     width: 20px;
 }
@@ -92,6 +92,13 @@ header {
 
 .accessories img {
     width: 80%;
+}
+
+.banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .new_games {
