@@ -38,6 +38,22 @@ img {
     background-color: var(--primary-b);
 }
 
+.new_games {
+    background-color: var(--bg-new);
+}
+
+.ps_plus {
+    background-color: var(--bg-plus);
+}
+
+.grey_button {
+    background-color: var(--secondary-b);
+}
+
+.ps_now {
+    background-color: var(--bg-now);
+}
+
 .banner_rule {
     background-size: cover;
     background-position: center;
@@ -88,11 +104,12 @@ header {
     font-size: 10px;
     background-color: var(--login);
 }
-/* /header */
+
 .hero_logo {
     width: 85%;
     padding: 1rem 0;
 }
+/* /header */
 
 /* main */
 .banner_1 {
@@ -111,18 +128,7 @@ header {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-.new_games {
-    background-color: var(--bg-new);
-}
-
-.ps_plus {
-    background-color: var(--bg-plus);
-}
-
-.grey_button {
-    background-color: var(--secondary-b);
-}
-
+/* #region my responsive */
 @media screen and (max-width: 767.98px) {
     .ps_plus_banner {
         display: none;
