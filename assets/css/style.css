@@ -71,7 +71,7 @@ img {
 }
 
 header {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .top_search {
@@ -96,4 +96,18 @@ header {
 
 .new_games {
     background-color: var(--bg-new);
+}
+
+.ps_plus {
+    background-color: var(--bg-plus);
+}
+
+.grey_button {
+    background-color: var(--secondary-b);
+}
+
+@media screen and (max-width: 767.98px) {
+    .ps_plus_banner {
+        display: none;
+    }
 }
