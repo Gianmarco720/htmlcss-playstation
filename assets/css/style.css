@@ -38,6 +38,12 @@ img {
     background-color: var(--primary-b);
 }
 
+.banner_rule {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .fs_10 {
     font-size: 10px;
 }
@@ -83,22 +89,26 @@ header {
     background-color: var(--login);
 }
 /* /header */
-
-/* main */
 .hero_logo {
     width: 85%;
     padding: 1rem 0;
+}
+
+/* main */
+.banner_1 {
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.my_pt {
+    padding-top: 15%;
 }
 
 .accessories img {
     width: 80%;
 }
 
-.banner {
+.banner_2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .new_games {
