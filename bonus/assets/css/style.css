@@ -18,12 +18,21 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.dropdown-toggle::after {
-    display: none;
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
 }
 
-.custom_dropdown {
-    height: 10px;
+.dropdown-toggle::after {
+    border: none;
+    font: var(--fa-font-solid);
+    content: '\f107';
+}
+
+.dropdown-toggle.show::after {
+    border: none;
+    font: var(--fa-font-solid);
+    content: '\f106';
 }
 
 img {
@@ -123,17 +132,17 @@ header {
     font-size: 10px;
     background-color: var(--login);
 }
-
-.hero_logo {
-    width: 85%;
-    padding: 1rem 0;
-}
 /* /header */
 
 /* main */
 .banner_1 {
     background-image: url(../img/jumbo-bg.png);
     background-position-y: 115px;
+}
+
+.hero_logo {
+    width: 85%;
+    padding: 1rem 0;
 }
 
 .my_pt {
@@ -166,6 +175,11 @@ header {
     color: black;
 }
 
+.login:hover {
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
 .hero_game img {
     position: relative;
     top: 0;
@@ -186,6 +200,10 @@ header {
 .accessories .col:hover {
     opacity: 100%;
     border-bottom: 2px solid var(--logo-ps);
+    cursor: pointer;
+}
+
+.new_games img:hover {
     cursor: pointer;
 }
 
